@@ -130,7 +130,7 @@ export function UserDashboard() {
         {/* Sidebar - no role switching here; role selection is done on login/signup */}
         <aside className="w-64 bg-white shadow-sm hidden md:flex flex-col p-4 h-screen sticky top-0">
           <div className="mb-4">
-            <h2 className="text-xl font-bold text-gray-800 flex items-center"><span className="text-green-500 mr-2">♻️</span> WasteWise</h2>
+            <h2 className="text-xl font-bold text-gray-800 flex items-center"><span className="text-green-500 mr-2">♻️</span> CleanEarth</h2>
           </div>
 
           <div className="p-3 bg-gray-50 rounded mb-4">
@@ -486,30 +486,6 @@ export function UserDashboard() {
             </div>
           )}
         </main>
-      </div>
-    </Layout>
-  );
-}
-                 <>
-                 <> 
-                  <p className="text-sm font-medium text-gray-900">Recycled 15kg of materials</p>
-                  <p className="text-xs text-gray-500">Jan 10, 2025</p>
-                </div>
-              </div>
-              </>
-              <div className="flex items-start space-x-3">
-                <div className="bg-amber-100 p-2 rounded-lg">
-                  <TrendingUp className="h-5 w-5 text-amber-600" />
-                </div>
-                <div className="flex-1">
-                  <p className="text-sm font-medium text-gray-900">Milestone: 100kg collected</p>
-                  <p className="text-xs text-gray-500">Jan 5, 2025</p>
-                </div>
-              </div>
-              </>
-            </div>
-          </Card>
-        </div>
       </div>
     </Layout>
   );
