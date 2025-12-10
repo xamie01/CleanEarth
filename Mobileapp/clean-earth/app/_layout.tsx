@@ -1,3 +1,7 @@
+// Add this import at the very top!
+import "../global.css"; 
+
+import '../global.css';
 import { Stack } from 'expo-router';
 import { StatusBar } from 'expo-status-bar';
 
